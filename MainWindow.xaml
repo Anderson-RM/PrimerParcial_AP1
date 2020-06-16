@@ -6,9 +6,15 @@
         xmlns:local="clr-namespace:PrimerParcial_AP1"
         mc:Ignorable="d"
         
-        Title="Registro de Productos" Height="330" Width="298" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="Ventana Principal" Height="330" Width="298" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-         
+        <StackPanel>
+            <Menu Height="24" FontSize="15">
+                <MenuItem Header="Registros">
+                    <MenuItem x:Name="ArticulosMenuItem" Click="ArticulosMenuItem_Click" Header="Registrar Articulos"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
     </Grid>
 
 </Window>
